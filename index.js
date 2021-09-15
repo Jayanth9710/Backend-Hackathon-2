@@ -3,7 +3,7 @@ const puppeteer = require("puppeteer");
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const PORT = process.env.port || 4000;
+const PORT = process.env.PORT || 4000;
 const MONGO_URI = process.env.DB;
 const dotenv = require('dotenv')
 dotenv.config();
